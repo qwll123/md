@@ -60,7 +60,7 @@ An Integer ``> 0`` can be mapped into Base `> 1` according to the following:<br>
 | 6                  | 100000     | 210        | 301        | 400        |
 | ...                | ...        | ...        | ...        | ...        |
 
-The is, the largest digit in a base is the most significant digit and only occurs once.
+The largest digit in a base is the most significant digit and only occurs once.
 
 ## Putting It Together
 Base 2 currently requires a workaround of subtracting 1 from the final Integer, and may still have issues.<br>
