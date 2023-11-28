@@ -1,16 +1,16 @@
 # Counting the Continued Fractions
 
 ## Brief Introduction:
-The intended direction taken here is to provide a quick sanity check (a "peered preview" if you will).<br>
-It is deliberately kept terse, in order to focus on potential problems.<br>
-Explanations and examples need to be improved and expanded upon, feedback for which parts being appreciated.
+* The intended direction taken here is to provide a quick sanity check (a "peered preview" if you will).<br>
+* It is deliberately kept terse, in order to focus on potential problems.<br>
+* Explanations and examples need to be improved and expanded upon, feedback for which parts being appreciated.
 
 ## Accumulated Observations Which Asked the Questions Pursued
 <pre>
-Cantor's Diagonal Argument does not factor in the Base of the Real Numbers or the Decimal Points.
-Continued Fractions (with details) uniquely map the Real Numbers into a sequence of Integers > 0.
-A sequence of Integers > 0 can be counted into a single Integer > 0
-A simplistic example would be counting base 10s into base 11, using the extra digit to represent both the separator, and +1 to the count.
+* Cantor's Diagonal Argument does not factor in the Base of the Real Numbers or the Decimal Points.
+* Continued Fractions (with details) uniquely map the Real Numbers into a sequence of Integers > 0.
+* A sequence of Integers > 0 can be counted into a single Integer > 0
+* A simplistic example would be counting base 10s into base 11, using the extra digit to represent both the separator, and +1 to the count.
 </pre>
 
 ## Prior Proofs Built Off Of
