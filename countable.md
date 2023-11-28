@@ -13,7 +13,7 @@
 
 ## Prior Proofs Built Off Of
 ### Continued Fractions Can Count the Real Numbers
-* In order for there to be a unique mapping, a finite Continued Fraction requires the final Integer to be `> 1`.
+In order for there to be a unique mapping, a finite Continued Fraction requires the final Integer to be `> 1`.
 
 * A common syntax Continued Fractions are written in is:<br>
   `a; b, ..., y, z`
