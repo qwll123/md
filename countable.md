@@ -63,8 +63,7 @@ An Integer ``> 0`` can be mapped into Base `> 1` according to the following:<br>
 The largest digit in a base is the most significant digit and only occurs once.
 
 ## Putting It Together
-* Base 2 currently requires a workaround of subtracting 1 from the final Integer, and may still have issues.
-* The other Bases work correctly, but handle the case where a; is 0; differently then base 2 does, as they have more digits available.
+Base 2 currently requires a workaround of subtracting 1 from the final Integer, and may still have issues. The other Bases work correctly, but handle the case where a; is 0; differently then base 2 does, as they have more digits available.
 
 * Numbers are read from right to left, so that the largest digit counts the top of each Integer.
 * They occur in the same order `a; b, ..., y, z` occurs in.
