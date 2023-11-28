@@ -13,39 +13,39 @@
 
 ## Prior Proofs Built Off Of
 ### Continued Fractions Can Count the Real Numbers
-In order for there to be a unique mapping, a finite Continued Fraction requires the final Integer to be > 1.
+* In order for there to be a unique mapping, a finite Continued Fraction requires the final Integer to be > 1.
 
-A common syntax Continued Fractions are written in is:
-a; b, ..., y, z
+* A common syntax Continued Fractions are written in is:<br>
+  `a; b, ..., y, z`
 
-Where:
-a; is an Integer
-b, ..., y, are each Integers > 0
-z is an Integer > 1
+Where:<br>
+`a;` is an Integer<br>
+`b, ..., y,` are each Integers > 0<br>
+`z` is an Integer > 1<br>
 
 ### Integer Mappings to an Integer > 0
-a; maps to:
- 0 ->   (special case, see "Putting It Together" below)
-+1 -> 1
--1 -> 2
-+2 -> 3
--2 -> 4
-+3 -> 5
--3 -> 6
-  ...
-+n ->  2n -1 => 2n -1
--n -> -2(-n) => 2n
+`a;` maps to:<br>
+ 0 ->   (special case, see "Putting It Together" below)<br>
++1 -> 1<br>
+-1 -> 2<br>
++2 -> 3<br>
+-2 -> 4<br>
++3 -> 5<br>
+-3 -> 6<br>
+  ...<br>
++n ->  2n -1 => 2n -1<br>
+-n -> -2(-n) => 2n<br>
 
-z maps to:
-2 -> 1
-3 -> 2
-4 -> 3
- ...
-n -> n-1
+`z` maps to:<br>
+2 -> 1<br>
+3 -> 2<br>
+4 -> 3<br>
+ ...<br>
+n -> n-1<br>
 
-Therefore:
-Before: a; and z were special cases
-After:  a; b, ..., y, z each map to an Integer > 0
+Therefore:<br>
+Before: `a;` and `z` were special cases<br>
+After:  `a; b, ..., y, z` each map to an Integer > 0<br>
 
 ## Mapping an Integer > 0 into Base 10
 An Integer > 0 can be mapped into Base > 1 according to the following:<br>
@@ -66,8 +66,8 @@ Base 2 currently requires a workaround of subtracting 1 from the final Integer, 
 The other Bases work correctly, but handle the case where a; is 0; differently then base 2 does, as they have more digits available.
 
 Numbers are read from right to left, so that the largest digit counts the top of each Integer.
-They occur in the same order a; b, ..., y, z occurs in.<br>
-When a; is read, if the most significant digit is the largest digit, then it counts 0; b, otherwise it counts a;
+They occur in the same order `a; b, ..., y, z` occurs in.<br>
+When `a;` is read, if the most significant digit is the largest digit, then it counts `0; b,` otherwise it counts `a;`
 
 ### Incomplete Listing of Example Mappings
 | Integers > 0     | Base 2 (-1 to) | Base 3     | Base 4     | Base 5     |
@@ -90,7 +90,7 @@ Well this can be explained/shown better, the above is able to represent all poss
 
 A more direct way to explain this can be seen by the special case of how Base 3 encodes a Base 2 number.<br>
 The leading 2 can be read as the leading 1 of a Base 2 number, as all Base 2 numbers lead with a 1.<br>
-The remaining base 3 numbers that don't lead with a 2, map to the case where a; is > 0, well the above counts the cases where a; is 0.<br>
+The remaining base 3 numbers that don't lead with a 2, map to the case where `a;` is > 0, well the above counts the cases where `a;` is 0.<br>
 Each 2 digit now acts as both the separator digit and the leading 1 of a base 2 number, counting a list of base 2 Integers > 0.
 
 ### Reverse Mapping Example from Base 3 to List of Base 2's
