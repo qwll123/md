@@ -46,6 +46,7 @@ n -> n-1<br>
 Therefore:<br>
 Before: `a;` and `z` were special cases<br>
 After:  `a; b, ..., y, z` each map to an Integer `> 0`<br>
+Remaing case where `a;` is `0;` handled below.
 
 ## Mapping an Integer `> 0` into Base 10
 An Integer ``> 0`` can be mapped into Base `> 1` according to the following:<br>
