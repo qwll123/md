@@ -7,26 +7,26 @@
 
 ## Observations Which Summarize How
 * Cantor's Diagonal Argument does not factor in the Base of the Real Numbers or the Decimal Points.
-* Continued Fractions (with caveats) uniquely map the Real Numbers into a sequence of Integers > 0.
-* A sequence of Integers > 0 can be counted into a single Integer > 0
+* Continued Fractions (with caveats) uniquely map the Real Numbers into a sequence of Integers `> 0`.
+* A sequence of Integers `> 0` can be counted into a single Integer `> 0`
 * A simplistic example would be counting base 10s into base 11, using the extra digit to represent both the separator, and +1 to the count.
 
 ## Prior Proofs Built Off Of
 ### Continued Fractions Can Count the Real Numbers
-* In order for there to be a unique mapping, a finite Continued Fraction requires the final Integer to be > 1.
+* In order for there to be a unique mapping, a finite Continued Fraction requires the final Integer to be `> 1`.
 
 * A common syntax Continued Fractions are written in is:<br>
   `a; b, ..., y, z`
 
 Where:<br>
 `a;` is an Integer<br>
-`b, ..., y,` are each Integers > 0<br>
-`z` is an Integer > 1<br>
+`b, ..., y,` are each Integers `> 0`<br>
+`z` is an Integer `> 1`<br>
 
-### Integer Mappings to an Integer > 0
+### Integer Mappings to an Integer `> 0`
 `a;` maps to:<br>
  0 ->   (special case, see "Putting It Together" below)<br>
-+1 -> 1<br>
++1 -`> 1`<br>
 -1 -> 2<br>
 +2 -> 3<br>
 -2 -> 4<br>
@@ -37,7 +37,7 @@ Where:<br>
 -n -> -2(-n) => 2n<br>
 
 `z` maps to:<br>
-2 -> 1<br>
+2 -`> 1`<br>
 3 -> 2<br>
 4 -> 3<br>
  ...<br>
@@ -45,11 +45,11 @@ n -> n-1<br>
 
 Therefore:<br>
 Before: `a;` and `z` were special cases<br>
-After:  `a; b, ..., y, z` each map to an Integer > 0<br>
+After:  `a; b, ..., y, z` each map to an Integer `> 0`<br>
 
-## Mapping an Integer > 0 into Base 10
-An Integer > 0 can be mapped into Base > 1 according to the following:<br>
-| Integer > 0        | Base 2     | Base 3     | Base 4     | Base 5     |
+## Mapping an Integer `> 0` into Base 10
+An Integer ``> 0`` can be mapped into Base `> 1` according to the following:<br>
+| Integer ``> 0``        | Base 2     | Base 3     | Base 4     | Base 5     |
 | ------             | -----      | -----      | -----      | -----      |
 | 1                  | 1          | 2          | 3          | 4          |
 | 2                  | 10         | 20         | 30         | 40         |
@@ -70,7 +70,7 @@ They occur in the same order `a; b, ..., y, z` occurs in.<br>
 When `a;` is read, if the most significant digit is the largest digit, then it counts `0; b,` otherwise it counts `a;`
 
 ### Incomplete Listing of Example Mappings
-| Integers > 0     | Base 2 (-1 to) | Base 3     | Base 4     | Base 5     |
+| Integers `> 0`     | Base 2 (-1 to) | Base 3     | Base 4     | Base 5     |
 | ------           | -----          | -----      | -----      | -----      |
 | 1                | 10 -1          | 1          | 1          | 1          |
 | 2                | 100 -1         | 10         | 2          | 2          |
@@ -86,12 +86,12 @@ When `a;` is read, if the most significant digit is the largest digit, then it c
 | 1 2 3 4          | 10101001000 -1 | 12021200   | 1303132    | 1404142    |
 | 4 3 2 1          | 10000100101 -1 | 10021202   | 1131303    | 10241404   |
 
-Well this can be explained/shown better, the above is able to represent all possible lists of Integers > 0.
+Well this can be explained/shown better, the above is able to represent all possible lists of Integers `> 0`.
 
 A more direct way to explain this can be seen by the special case of how Base 3 encodes a Base 2 number.<br>
 The leading 2 can be read as the leading 1 of a Base 2 number, as all Base 2 numbers lead with a 1.<br>
-The remaining base 3 numbers that don't lead with a 2, map to the case where `a;` is > 0, well the above counts the cases where `a;` is 0.<br>
-Each 2 digit now acts as both the separator digit and the leading 1 of a base 2 number, counting a list of base 2 Integers > 0.
+The remaining base 3 numbers that don't lead with a 2, map to the case where `a;` is `> 0`, well the above counts the cases where `a;` is 0.<br>
+Each 2 digit now acts as both the separator digit and the leading 1 of a base 2 number, counting a list of base 2 Integers `> 0`.
 
 ### Reverse Mapping Example from Base 3 to List of Base 2's
 | Base 3 |  Base 2's       |
