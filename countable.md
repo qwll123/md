@@ -1,4 +1,4 @@
-# Counting the Continued Fractions
+# Counting the Continued Fractions, Which Count the Real Numbers
 
 ## Brief Introduction
 * The intended direction taken here is to provide a quick sanity check (a "peered preview" if you will).<br>
