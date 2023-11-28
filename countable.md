@@ -90,7 +90,7 @@ Well this can be explained/shown better, the above is able to represent all poss
 
 A more direct way to explain this can be seen by the special case of how Base 3 encodes a Base 2 number:<br>
 * The leading 2 can be read as the leading 1 of a Base 2 number, as all Base 2 numbers `> 0` lead with a 1.
-* The remaining base 3 numbers that don't lead with a 2, map to the case where `a;` is `> 0`, well the above counts the cases where `a;` is 0.
+* The remaining base 3 numbers that don't lead with a 2 map to the case where `a;` is `> 0`, well the above counts the cases where `a;` is 0.
 * Each 2 digit now acts as both the separator digit and the leading 1 of a base 2 number, counting a list of base 2 Integers `> 0`.
 
 ### Reverse Mapping Example from Base 3 to List of Base 2's
