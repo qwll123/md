@@ -13,7 +13,6 @@
 
 ## Prior Proofs Built Off Of
 ### Continued Fractions Can Count the Real Numbers
-<pre>
 In order for there to be a unique mapping, a finite Continued Fraction requires the final Integer to be > 1.
 
 A common syntax Continued Fractions are written in is:
@@ -23,10 +22,8 @@ Where:
 a; is an Integer
 b, ..., y, are each Integers > 0
 z is an Integer > 1
-</pre>
 
 ### Integer Mappings to an Integer > 0
-<pre>
 a; maps to:
  0 ->   (special case, see "Putting It Together" below)
 +1 -> 1
@@ -49,7 +46,6 @@ n -> n-1
 Therefore:
 Before: a; and z were special cases
 After:  a; b, ..., y, z each map to an Integer > 0
-</pre>
 
 ## Mapping an Integer > 0 into Base 10
 An Integer > 0 can be mapped into Base > 1 according to the following:<br>
