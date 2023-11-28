@@ -7,7 +7,7 @@
 
 ## Observations Which Summarize How
 * Cantor's Diagonal Argument does not factor in the Base of the Real Numbers or the Decimal Points.
-* Continued Fractions (with caveats ) uniquely map the Real Numbers into a sequence of Integers > 0.
+* Continued Fractions (with caveats) uniquely map the Real Numbers into a sequence of Integers > 0.
 * A sequence of Integers > 0 can be counted into a single Integer > 0
 * A simplistic example would be counting base 10s into base 11, using the extra digit to represent both the separator, and +1 to the count.
 
