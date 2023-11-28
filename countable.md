@@ -63,12 +63,12 @@ An Integer ``> 0`` can be mapped into Base `> 1` according to the following:<br>
 The largest digit in a base is the most significant digit and only occurs once.
 
 ## Putting It Together
-Base 2 currently requires a workaround of subtracting 1 from the final Integer, and may still have issues.<br>
-The other Bases work correctly, but handle the case where a; is 0; differently then base 2 does, as they have more digits available.
+* Base 2 currently requires a workaround of subtracting 1 from the final Integer, and may still have issues.
+* The other Bases work correctly, but handle the case where a; is 0; differently then base 2 does, as they have more digits available.
 
-Numbers are read from right to left, so that the largest digit counts the top of each Integer.
-They occur in the same order `a; b, ..., y, z` occurs in.<br>
-When `a;` is read, if the most significant digit is the largest digit, then it counts `0; b,` otherwise it counts `a;`
+* Numbers are read from right to left, so that the largest digit counts the top of each Integer.
+* They occur in the same order `a; b, ..., y, z` occurs in.
+* When `a;` is read, if the most significant digit is the largest digit, then it counts `0; b,` otherwise it counts `a;`
 
 ### Incomplete Listing of Example Mappings
 | Integers `> 0`     | Base 2 (-1 to) | Base 3     | Base 4     | Base 5     |
@@ -89,10 +89,10 @@ When `a;` is read, if the most significant digit is the largest digit, then it c
 
 Well this can be explained/shown better, the above is able to represent all possible lists of Integers `> 0`.
 
-A more direct way to explain this can be seen by the special case of how Base 3 encodes a Base 2 number.<br>
-The leading 2 can be read as the leading 1 of a Base 2 number, as all Base 2 numbers lead with a 1.<br>
-The remaining base 3 numbers that don't lead with a 2, map to the case where `a;` is `> 0`, well the above counts the cases where `a;` is 0.<br>
-Each 2 digit now acts as both the separator digit and the leading 1 of a base 2 number, counting a list of base 2 Integers `> 0`.
+A more direct way to explain this can be seen by the special case of how Base 3 encodes a Base 2 number:<br>
+* The leading 2 can be read as the leading 1 of a Base 2 number, as all Base 2 numbers lead with a 1.
+* The remaining base 3 numbers that don't lead with a 2, map to the case where `a;` is `> 0`, well the above counts the cases where `a;` is 0.
+* Each 2 digit now acts as both the separator digit and the leading 1 of a base 2 number, counting a list of base 2 Integers `> 0`.
 
 ### Reverse Mapping Example from Base 3 to List of Base 2's
 | Base 3 |  Base 2's       |
